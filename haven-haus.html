@@ -7,6 +7,13 @@
 
   <link rel="stylesheet" href="css/style.css">
   <script defer src="js/main.js"></script>
+
+  <!-- Smooth scroll -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
 
@@ -17,45 +24,80 @@
     <ul class="nav-links">
       <li><a href="index.html">Home 🏠</a></li>
       <li><a href="shop.html">Shop 🛍️</a></li>
-      <li><a href="haven-haus.html">Haven Haus 🏠</a></li>
+      <li><a href="#top">Haven Haus 🏠</a></li>
     </ul>
   </nav>
 
-  <!-- 🏠 HAVEN HAUS HERO -->
-  <section class="hero animate-fade-up">
-    <h2 class="hero-title glow-text">
-      Haven Haus 🏠⚡
-    </h2>
+  <a id="top"></a>
 
+  <!-- 🏠 HERO -->
+  <section class="hero animate-fade-up">
+    <h2 class="hero-title glow-text">Haven Haus 🏠⚡</h2>
     <p class="hero-subtext">
       Tech & hostel essentials for stress-free student living 🔌🛏️
     </p>
   </section>
 
-  <!-- 🧰 CATEGORIES -->
+  <!-- 🧭 CATEGORY CARDS (CLICKABLE) -->
   <section class="divisions">
 
-    <div class="division-card glow-card animate-slide-left">
+    <a href="#tech" class="division-card glow-card animate-slide-left">
       <h3 class="division-title">Tech Accessories 🔌</h3>
       <p class="division-text">
         Earphones, power banks, ring lights & daily tech must-haves ⚡
       </p>
-    </div>
+    </a>
 
-    <div class="division-card glow-card animate-slide-right">
+    <a href="#hostel" class="division-card glow-card animate-slide-right">
       <h3 class="division-title">Hostel Essentials 🛏️</h3>
       <p class="division-text">
         Bedsheets, kettles, extension boards & comfort basics 🧺
       </p>
-    </div>
+    </a>
 
-    <div class="division-card glow-card animate-slide-left">
+    <a href="#utility" class="division-card glow-card animate-slide-left">
       <h3 class="division-title">Study & Utility 📚</h3>
       <p class="division-text">
-        Functional items that make campus life easier & organised ✨
+        Functional items that make campus life easier ✨
       </p>
-    </div>
+    </a>
 
+  </section>
+
+  <!-- 🔌 TECH SECTION -->
+  <section id="tech" class="brand-statement">
+    <h3 class="division-title glow-text">Tech Accessories 🔌</h3>
+    <p class="division-text">
+      Reliable tech essentials to keep you connected and powered ⚡
+    </p>
+
+    <p class="division-text">
+      🔌 Products will appear here.
+    </p>
+  </section>
+
+  <!-- 🛏️ HOSTEL SECTION -->
+  <section id="hostel" class="brand-statement">
+    <h3 class="division-title glow-text">Hostel Essentials 🛏️</h3>
+    <p class="division-text">
+      Comfort-first items that make your space feel like home 🏠
+    </p>
+
+    <p class="division-text">
+      🛌 Products will appear here.
+    </p>
+  </section>
+
+  <!-- 📚 UTILITY SECTION -->
+  <section id="utility" class="brand-statement">
+    <h3 class="division-title glow-text">Study & Utility 📚</h3>
+    <p class="division-text">
+      Practical tools to stay organised, focused, and stress-free ✨
+    </p>
+
+    <p class="division-text">
+      📦 Products will appear here.
+    </p>
   </section>
 
   <!-- 🌙 FOOTER -->
