@@ -62,3 +62,16 @@ function resetView() {
   box-shadow: 0 0 25px rgba(0, 170, 255, 0.6);
   transform: translateY(-2px);
 }
+/* ❤️ WISHLIST */
+function toggleWishlist(btn) {
+  btn.classList.toggle("active");
+  btn.textContent = btn.classList.contains("active") ? "💙" : "❤️";
+}
+
+/* 💬 WHATSAPP ORDER */
+function orderNow(product, price) {
+  const message = `Hi Havenyxx💕. I'd like to order ${product} for ₵${price}.`;
+  const phone = "233XXXXXXXXX"; // replace with your business WhatsApp number
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+}
