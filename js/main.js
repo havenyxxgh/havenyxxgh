@@ -71,7 +71,7 @@ function toggleWishlist(btn) {
 /* 💬 WHATSAPP ORDER */
 function orderNow(product, price) {
   const message = `Hi Havenyxx💕. I'd like to order ${product} for ₵${price}.`;
-  const phone = "233XXXXXXXXX"; // replace with your business WhatsApp number
+  const phone = "233242676006"; // replace with your business WhatsApp number
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 }
