@@ -34,3 +34,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+function resetView() {
+  // Remove the hash from URL
+  history.pushState("", document.title, window.location.pathname);
+  
+  // Smooth scroll to top
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
