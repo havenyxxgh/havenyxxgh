@@ -7,6 +7,13 @@
 
   <link rel="stylesheet" href="css/style.css">
   <script defer src="js/main.js"></script>
+
+  <!-- Smooth scroll -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
 
@@ -17,45 +24,80 @@
     <ul class="nav-links">
       <li><a href="index.html">Home 🏠</a></li>
       <li><a href="shop.html">Shop 🛍️</a></li>
-      <li><a href="onyx-touch.html">Onyx Touch 🖤</a></li>
+      <li><a href="#top">Onyx Touch 🖤</a></li>
     </ul>
   </nav>
 
-  <!-- 🖤 ONYX HERO -->
-  <section class="hero animate-fade-up">
-    <h2 class="hero-title glow-text">
-      Onyx Touch 🖤✨
-    </h2>
+  <a id="top"></a>
 
+  <!-- 🖤 HERO -->
+  <section class="hero animate-fade-up">
+    <h2 class="hero-title glow-text">Onyx Touch 🖤✨</h2>
     <p class="hero-subtext">
       Beauty, self-care & fashion essentials — soft luxury made simple 💄👜
     </p>
   </section>
 
-  <!-- 🧴 CATEGORIES -->
+  <!-- 🧭 CATEGORY CARDS (CLICKABLE) -->
   <section class="divisions">
 
-    <div class="division-card glow-card animate-slide-left">
+    <a href="#beauty" class="division-card glow-card animate-slide-left">
       <h3 class="division-title">Beauty & Self-Care 💅🏽</h3>
       <p class="division-text">
-        Skincare, hair tools, perfumes & everyday glow essentials ✨
+        Skincare, hair tools, perfumes & glow essentials ✨
       </p>
-    </div>
+    </a>
 
-    <div class="division-card glow-card animate-slide-right">
+    <a href="#fashion" class="division-card glow-card animate-slide-right">
       <h3 class="division-title">Fashion Basics 👜</h3>
       <p class="division-text">
-        Bags, sandals, simple dresses & effortless everyday pieces 🤍
+        Bags, sandals, simple dresses & clean everyday looks 🤍
       </p>
-    </div>
+    </a>
 
-    <div class="division-card glow-card animate-slide-left">
+    <a href="#accessories" class="division-card glow-card animate-slide-left">
       <h3 class="division-title">Accessories ✨</h3>
       <p class="division-text">
-        Small details that pull your look together — clean & intentional 💍
+        Small details that pull everything together 💍
       </p>
-    </div>
+    </a>
 
+  </section>
+
+  <!-- 🧴 BEAUTY SECTION -->
+  <section id="beauty" class="brand-statement">
+    <h3 class="division-title glow-text">Beauty & Self-Care 💅🏽</h3>
+    <p class="division-text">
+      Thoughtfully curated items to help you feel soft, confident, and glowing ✨
+    </p>
+
+    <p class="division-text">
+      🧴 Products will appear here.
+    </p>
+  </section>
+
+  <!-- 👜 FASHION SECTION -->
+  <section id="fashion" class="brand-statement">
+    <h3 class="division-title glow-text">Fashion Basics 👜</h3>
+    <p class="division-text">
+      Clean, easy pieces that fit your everyday life 🤍
+    </p>
+
+    <p class="division-text">
+      👗 Products will appear here.
+    </p>
+  </section>
+
+  <!-- ✨ ACCESSORIES SECTION -->
+  <section id="accessories" class="brand-statement">
+    <h3 class="division-title glow-text">Accessories ✨</h3>
+    <p class="division-text">
+      Minimal details that elevate your look effortlessly 💍
+    </p>
+
+    <p class="division-text">
+      👜 Products will appear here.
+    </p>
   </section>
 
   <!-- 🌙 FOOTER -->
