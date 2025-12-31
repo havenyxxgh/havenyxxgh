@@ -44,24 +44,7 @@ function resetView() {
     behavior: "smooth"
   });
 }
-.back-btn {
-  margin-top: 30px;
-  padding: 12px 24px;
-  background: rgba(0, 170, 255, 0.15);
-  border: 1px solid rgba(0, 170, 255, 0.4);
-  color: #9adfff;
-  border-radius: 30px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 15px rgba(0, 170, 255, 0.3);
-}
 
-.back-btn:hover {
-  background: rgba(0, 170, 255, 0.3);
-  box-shadow: 0 0 25px rgba(0, 170, 255, 0.6);
-  transform: translateY(-2px);
-}
 /* ❤️ WISHLIST */
 function toggleWishlist(btn) {
   btn.classList.toggle("active");
