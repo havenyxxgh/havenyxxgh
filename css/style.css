@@ -105,13 +105,13 @@ a {
 
 .hero {
   min-height: 70vh;
-  padding: 5rem 2rem;
+  padding: 6rem 2rem 8rem; /* top & bottom breathing room */
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 
 .hero-title {
   font-size: 2.4rem;
@@ -130,6 +130,9 @@ a {
   background: linear-gradient(135deg, var(--blue-glow), var(--blue-soft));
   color: #fff;
   font-weight: 600;
+}
+.hero-actions {
+  margin-top: 3.5rem;
 }
 
 /* ===============================
